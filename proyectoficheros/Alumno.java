@@ -5,13 +5,13 @@
  */
 package proyectoficheros;
 
-import java.util.logging.Logger;
+import java.io.Serializable;
 
 /**
  *
  * @author asilvafernandez
  */
-public class Alumno implements java.io.Serializable{
+public class Alumno implements Serializable{
     private String nombre;
     private int nota;
 
