@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
@@ -89,6 +90,7 @@ public class Fichero {
     
     
     public static void mostrarArrayList(){
+        Collections.sort(aprobados);
         for (Alumno aprobado: aprobados){
             System.out.println(aprobado.getNombre() + "-->" + aprobado.getNota());
         }
