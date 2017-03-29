@@ -86,6 +86,8 @@ public class Fichero {
         }
     }
     
+    
+    
     public static void mostrarArrayList(){
         for (Alumno aprobado: aprobados){
             System.out.println(aprobado.getNombre() + "-->" + aprobado.getNota());
